@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Nouvelle Monarchie – Accueil</title>
+  <meta name="description" content="Site officiel de La Nouvelle Monarchie : souveraineté, stabilité et unité nationale." />
+  <style>
+    :root {
+      --primary: #1f3c88;
+      --secondary: #f5b700;
+      --dark: #111827;
+      --light: #f9fafb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--dark);
+      background: var(--light);
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), #0b1f4b);
+      color: white;
+      padding: 2rem 1rem;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    nav h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      letter-spacing: 1px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      max-width: 1100px;
+      margin: 2rem auto 0;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .hero h2 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background: var(--secondary);
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+    section {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    section h3 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .values {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    footer {
+      background: #0b1f4b;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+    footer p { margin: 0.3rem 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>La Nouvelle Monarchie</h1>
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#programme">Programme</a></li>
+      <li><a href="#valeurs">Valeurs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <h2>Pour une France souveraine, stable et unie</h2>
+    <p>
+      La Nouvelle Monarchie défend la souveraineté nationale,
+      la stabilité institutionnelle et l’unité du peuple français
+      autour d’une autorité légitime.
+    </p>
+    <a href="#programme" class="btn">Découvrir notre projet</a>
+  </div>
+</header>
+
+<section id="valeurs">
+  <h3>Nos principes fondamentaux</h3>
+  <div class="values">
+    <div class="card">
+      <h4>Autorité</h4>
+      <p>Un État fort garant de l’ordre, de la continuité et de la justice.</p>
+    </div>
+    <div class="card">
+      <h4>Souveraineté</h4>
+      <p>Une France libre de ses décisions et maîtresse de son destin.</p>
+    </div>
+    <div class="card">
+      <h4>Unité nationale</h4>
+      <p>Rassembler les Français au-delà des divisions idéologiques.</p>
+    </div>
+  </div>
+</section>
+
+<section id="programme">
+  <h3>Notre vision</h3>
+  <p style="text-align:center; max-width:800px; margin:0 auto;">
+    La Nouvelle Monarchie propose une refondation des institutions,
+    fondée sur la légitimité, la responsabilité et la transmission,
+    afin d’assurer la stabilité et la pérennité de la nation française.
+  </p>
+</section>
+
+<section id="contact">
+  <h3>Nous contacter</h3>
+  <p style="text-align:center;">
+    Email : contact@lanouvellemonarchie.fr<br />
+    Réseaux sociaux : prochainement
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 – La Nouvelle Monarchie</p>
+  <p>Site officiel</p>
+</footer>
+
+</body>
+</html>
